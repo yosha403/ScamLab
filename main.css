@@ -1,0 +1,59 @@
+body{
+    background-color:slateblue;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+}
+
+header{ 
+    background-color:lightskyblue;
+    height: 120px;
+    animation-name: example;
+    animation-duration: 15s;
+}
+
+footer{    
+    background-color:lightskyblue;
+    bottom: 0;
+    color:black;
+    position: absolute;
+    height:50px;
+    width: 100%;
+    text-align: center;   
+}
+
+img{    
+    border:4px solid black;    
+    margin-top: 40px;   
+}
+
+#Description{
+    float: right;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+#Message{
+    float: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.anybutton {
+    top:70%;
+    left:35%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background:darkorange; 
+    }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
